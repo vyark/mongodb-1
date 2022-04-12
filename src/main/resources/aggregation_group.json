@@ -1,0 +1,30 @@
+db.colName.aggregate([
+  {
+    $group: {
+      _id: { job: "dateOfBirth", age: "primarySkill" },
+      people: { $push: { name: "$name", martialStatus: "$surname" } }
+    }
+  },
+  {
+    $group: {
+      _id: { job: "$_id.dateOfBirth" },
+      peopleCount: { $sum: { $size: "$people" } } }
+  },
+  {
+    $group: {
+      _id: { job: "$_id.dateOfBirth" },
+      peopleCount: { $sum: "$peopleCount" },
+      agesList: { $push: { age: "$_id.dateOfBirth" } }
+    }
+  },
+  {
+    $group: {
+      _id: null,
+      peopleCount: { $sum: "$peopleCount" },
+      jobsList: { $push: { job: "$_id.dateOfBirth", agesList: "$agesList" } }
+    }
+  },
+  {
+    $project: { _id: 0, peopleCount: 1, jobsList: 1 }
+  }
+]);

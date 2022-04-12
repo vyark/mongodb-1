@@ -1,0 +1,101 @@
+[
+  {
+    "student_id": 1,
+    "name": "John",
+    "surname": "SMITH",
+    "date_of_birth": "1990-12-12",
+    "primary_skill": "Creativity",
+    "created_datetime": "2022-04-05",
+    "updated_datetime": "2022-04-05",
+    "subjects": [
+      {
+        "subject_id": 1,
+        "subject_name": "Geography",
+        "tutor": "Stephany SERBAN",
+        "amount_of_hours": 156,
+        "exams": [
+          {
+            "exam_id": 1,
+            "mark": 5
+          }
+        ]
+      },
+      {
+        "subject_id": 2,
+        "subject_name": "Literature",
+        "tutor": "Hallie ROSAND",
+        "amount_of_hours": 132,
+        "exams": [
+          {
+            "exam_id": 2,
+            "mark": 9
+          }
+        ]
+      }
+    ],
+    "phonenumbers": [
+      {
+        "phone_number": "+48794576122",
+        "phone_number_id": 1
+      }
+    ]
+  },
+  {
+    "student_id": 2,
+    "name": "Susan",
+    "surname": "DOYLE",
+    "date_of_birth": "1991-06-04",
+    "primary_skill": "Team Work",
+    "created_datetime": "2022-04-05",
+    "updated_datetime": "2022-04-05",
+    "subjects": [
+      {
+        "subject_id": 3,
+        "subject_name": "Dance",
+        "tutor": "Donelle AYERS",
+        "amount_of_hours": 124,
+        "exams": [
+          {
+            "exam_id": 3,
+            "mark": 8
+          }
+        ]
+      }
+    ],
+    "phonenumbers": [
+      {
+        "phone_number": "+48794576148",
+        "phone_number_id": 2
+      }
+    ]
+  },
+  {
+    "student_id": 3,
+    "name": "Varina",
+    "surname": "BOZAK",
+    "date_of_birth": "1990-07-14",
+    "primary_skill": "Problem-Solving",
+    "created_datetime": "2022-04-05",
+    "updated_datetime": "2022-04-05",
+    "subjects": [
+      {
+        "subject_id": 4,
+        "subject_name": "Biology",
+        "tutor": "Markis LECUONA",
+        "amount_of_hours": 156,
+        "exams": [
+          {
+            "exam_id": 4,
+            "mark": 6
+          }
+        ]
+      }
+    ],
+    "phonenumbers": [
+      {
+        "phone_number": "+48794558748",
+        "phone_number_id": 3
+      }
+    ]
+  }
+]

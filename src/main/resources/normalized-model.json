@@ -1,0 +1,34 @@
+/*student*/
+{
+    "studentId": "1",
+    "name": "John",
+    "surname": "Smith",
+    "dateOfBirth": "1990-12-12",
+    "primarySkill": "Creativity",
+    "createdDatetime": "2022-04-05",
+    "updatedDatetime": "2022-04-05",
+}
+
+/*subject*/
+{
+    "subjectId": "1",
+    "subjectName": "Geography",
+    "tutor": "Stephany SERBAN",
+    "amountOfHours": "156"
+}
+
+/*phoneNumbers*/
+{
+    "phoneNumberId": "1",
+    "phoneNumber": "+48794576122"
+    "studentId": "1",
+}
+
+/*examResults*/
+{
+    "examId": "1",
+    "studentId": "1",
+    "subjectId": "1"
+    "mark": "5"
+
+}
