@@ -1,0 +1,3 @@
+insert into student (student_id, name, surname, date_of_birth, primary_skill, created_datetime, updated_datetime) values (1, 'John', 'SMITH', '1990-12-12', 'Creativity', '2022-04-05', '2022-04-05');
+insert into student (student_id, name, surname, date_of_birth, primary_skill, created_datetime, updated_datetime) values (2, 'Susan', 'DOYLE', '1991-06-04', 'Team Work', '2022-04-05', '2022-04-05');
+insert into student (student_id, name, surname, date_of_birth, primary_skill, created_datetime, updated_datetime) values (3, 'Varina', 'BOZAK', '1990-07-14', 'Problem-Solving', '2022-04-05', '2022-04-05');

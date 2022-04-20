@@ -1,0 +1,103 @@
+{
+  "students": [
+    {
+      "studentId": "1",
+      "name": "John",
+      "surname": "Smith",
+      "dateOfBirth": "1990-12-12",
+      "primarySkill": "Creativity",
+      "createdDatetime": "2022-04-05",
+      "updatedDatetime": "2022-04-05",
+      "subjects": [
+        {
+          "subjectId": "1",
+          "subjectName": "Geography",
+          "tutor": "Stephany SERBAN",
+          "amountOfHours": "156",
+          "examResults": [
+            {
+              "examId": "1",
+              "mark": "5"
+            }
+          ]
+        },
+        {
+          "subjectId": "2",
+          "subjectName": "Literature",
+          "tutor": "Hallie ROSAND",
+          "amountOfHours": "132",
+          "examResults": [
+            {
+              "examId": "1",
+              "mark": "9"
+            }
+          ]
+        }
+      ],
+      "phoneNumbers": [
+        {
+          "phoneNumberId": "1",
+          "phoneNumber": "+48794576122"
+        }
+      ]
+    },
+    {
+      "studentId": "2",
+      "name": "Susan",
+      "surname": "Doyle",
+      "dateOfBirth": "1991-06-04",
+      "primarySkill": "Teamwork",
+      "createdDatetime": "2022-04-05",
+      "updatedDatetime": "2022-04-05",
+      "subjects": [
+        {
+          "subjectId": "1",
+          "subjectName": "Dance",
+          "tutor": "Donelle AYERS",
+          "amountOfHours": "123",
+          "examResults": [
+            {
+              "examId": "1",
+              "mark": "8"
+            }
+          ]
+        }
+      ],
+      "phoneNumbers": [
+        {
+          "phoneNumberId": "1",
+          "phoneNumber": "+48794576148"
+        }
+      ]
+    },
+    {
+      "studentId": "3",
+      "name": "Varina",
+      "surname": "BOZAK",
+      "dateOfBirth": "1990-07-14",
+      "primarySkill": "Problem-Solving",
+      "createdDatetime": "2022-04-05",
+      "updatedDatetime": "2022-04-05",
+      "subjects": [
+        {
+          "subjectId": "1",
+          "subjectName": "Biology",
+          "tutor": "Markis LECUONA",
+          "amountOfHours": "156",
+          "examResults": [
+            {
+              "examId": "1",
+              "mark": "6"
+            }
+          ]
+        }
+      ],
+      "phoneNumbers": [
+        {
+          "phoneNumberId": "1",
+          "phoneNumber": "+48794558748"
+        }
+      ]
+    }
+  ]
+}
